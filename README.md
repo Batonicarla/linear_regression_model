@@ -22,6 +22,7 @@ Returns the predicted Work-Life Balance Score (range ≈ 480–820)
 All inputs have enforced data types and range constraints
 
 Video Demo
+
 https://go.screenpal.com/watch/cOeuiwnTO2a
 
 
