@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-// ── IMPORTANT: Replace with your live Render URL ──────────────────────────
-const String kApiBaseUrl = 'https://your-app-name.onrender.com';
+// ── IMPORTANT: Replace with your live Render URL ───────────────────
+const String kApiBaseUrl = 'https://linear-regression-model-adn0.onrender.com';
 // ─────────────────────────────────────────────────────────────────────────
 
 void main() => runApp(const WLBApp());
@@ -120,13 +120,11 @@ class _PredictionPageState extends State<PredictionPage> {
     }
 
     try {
-      final response = await http
-          .post(
-            Uri.parse('$kApiBaseUrl/predict'),
-            headers: {'Content-Type': 'application/json'},
-            body: jsonEncode(body),
-          )
-          .timeout(const Duration(seconds: 30));
+    final response = await http.post(
+        Uri.parse('$kApiBaseUrl/predict'),
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode(body),
+      );]
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
