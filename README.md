@@ -13,13 +13,13 @@ Three models were compared : SGD Linear Regression, Decision Tree, and Random Fo
 Live API — Swagger UI
 
 Click the link below to open the Swagger UI and test the API:
+
 🔗 https://linear-regression-model-adn0.onrender.com/docs
 
 Accepts POST /predict requests with 21 lifestyle input variables
-
 Returns the predicted Work-Life Balance Score (range ≈ 480–820)
-
 All inputs have enforced data types and range constraints
+
 
 Video Demo
 
@@ -36,12 +36,12 @@ An Android emulator or a physical Android/iOS device connected and recognised by
 Run flutter doctor to confirm your setup is ready
 
 Step 1 — Clone the repository
-git clone https://github.com/YOUR-USERNAME/linear_regression_model.git
+git clone https://github.com/Batonicarla/linear_regression_model
 cd linear_regression_model
 
 Step 2 — Set your API URL
 Open summative/FlutterApp/lib/main.dart and on line 12 replace the placeholder with your live Render URL:
-const String kApiBase = 'https://YOUR-APP-NAME.onrender.com';
+const String kApiBase = 'https://linear-regression-model-adn0.onrender.com';
 
 Step 3 — Install dependencies
 cd summative/FlutterApp
@@ -77,5 +77,5 @@ linear_regression_model/
 
 
 Dataset
-Wellbeing and Lifestyle Data — Kaggle 15,972 rows · 24 columns · collected 2015–2021
+Wellbeing and Lifestyle Data — https://www.kaggle.com/datasets/ydalat/lifestyle-and-wellbeing-data 15,972 rows · 24 columns 
 
