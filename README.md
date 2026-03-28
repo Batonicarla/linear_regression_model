@@ -14,7 +14,7 @@ Live API — Swagger UI
 
 Click the link below to open the Swagger UI and test the API:
 
-🔗 https://linear-regression-model-adn0.onrender.com/docs
+ https://linear-regression-model-adn0.onrender.com/docs
 
 Accepts POST /predict requests with 21 lifestyle input variables
 Returns the predicted Work-Life Balance Score (range ≈ 480–820)
@@ -62,17 +62,27 @@ Repository Structure
 
 linear_regression_model/
 └── summative/
+
     ├── linear_regression/
-    │   └── multivariate_final.ipynb   ← Task 1: EDA, models, training
+    
+    │   └── multivariate_final.ipynb 
+    ← Task 1: EDA, models, training
     ├── API/
-    │   ├── prediction.py              ← Task 2: FastAPI endpoints
+    │   ├── prediction.py  
+    ← Task 2: FastAPI endpoints
     │   ├── requirements.txt
-    │   ├── best_model.pkl             ← Saved best model (SGD Linear Regression)
-    │   ├── scaler.pkl                 ← Fitted StandardScaler
-    │   └── feature_columns.pkl        ← Training feature column names
+    │   ├── best_model.pkl  
+    ← Saved best model (SGD Linear Regression)
+    │   ├── scaler.pkl  
+    ← Fitted StandardScaler
+    │   └── feature_columns.pkl  
+    ← Training feature column names
     └── FlutterApp/
+    
         ├── pubspec.yaml
+        
         └── lib/
+        
             └── main.dart              ← Task 3: Flutter prediction app
 
 
