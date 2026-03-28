@@ -7,22 +7,24 @@ Three models were compared : SGD Linear Regression, Decision Tree, and Random Fo
 
 
 Live API — Swagger UI
+
 Click the link below to open the Swagger UI and test the API:
-🔗 https://YOUR-APP-NAME.onrender.com/docs
-(Replace YOUR-APP-NAME with your actual Render app name before submission)
+🔗 https://linear-regression-model-adn0.onrender.com/docs
+
 Accepts POST /predict requests with 21 lifestyle input variables
 Returns the predicted Work-Life Balance Score (range ≈ 480–820)
 All inputs have enforced data types and range constraints
 
 Video Demo
-🎥 YouTube: https://youtu.be/YOUR-VIDEO-ID
-(Replace with your actual YouTube link before submission)
+https://go.screenpal.com/watch/cOeuiwnTO2a
+
 
 How to Run the Mobile App
 Prerequisites
 Flutter SDK version ≥ 3.3.0 installed
 An Android emulator or a physical Android/iOS device connected and recognised by Flutter
 Run flutter doctor to confirm your setup is ready
+
 Step 1 — Clone the repository
 git clone https://github.com/YOUR-USERNAME/linear_regression_model.git
 cd linear_regression_model
@@ -39,6 +41,7 @@ Step 4 — Run the app
 flutter run
 
 The app will launch on your connected device or emulator.
+
 Step 5 — Make a prediction
 Enter values in all 21 text fields
 Tap the Predict button
