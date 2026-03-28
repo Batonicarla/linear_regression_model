@@ -61,29 +61,30 @@ Repository Structure
 
 
 linear_regression_model/
+
 └── summative/
 
     ├── linear_regression/
     
     │   └── multivariate_final.ipynb 
-    ← Task 1: EDA, models, training
+    
     ├── API/
     │   ├── prediction.py  
-    ← Task 2: FastAPI endpoints
+    
     │   ├── requirements.txt
     │   ├── best_model.pkl  
-    ← Saved best model (SGD Linear Regression)
+    
     │   ├── scaler.pkl  
-    ← Fitted StandardScaler
+    
     │   └── feature_columns.pkl  
-    ← Training feature column names
+    
     └── FlutterApp/
     
         ├── pubspec.yaml
         
         └── lib/
         
-            └── main.dart              ← Task 3: Flutter prediction app
+            └── main.dart              
 
 
 Dataset
